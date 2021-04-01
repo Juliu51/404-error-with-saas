@@ -1,0 +1,59 @@
+
+.wrapper { 
+    height: 100%;
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(16,16,154,1) 68%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .borderis {
+        overflow: hidden;
+        background-color: white;
+        height: 80%;
+        width: 80%;
+        border-radius: 30px;
+        box-shadow: 1px 2px grey;
+        display: inline-block;
+        .kaire {
+            float: left;
+            height: 100%;
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .textas {
+                 display: inline-block;
+                text-transform: uppercase;
+                color: #10109a;
+                h1 {
+                 font-size: 9vmin;
+                font-weight: 600;
+                display: inline-block;
+                }
+                 p, button {
+                font-size: 3vmin;
+            }
+               button { text-transform: uppercase;
+                background-color: #10109a;
+                color: white;
+                border-radius: 30px;
+                height: 5vmin;
+                width: 20vmin;
+                margin-left: calc(50% - 10vmin);
+                margin-top: 5vmin;
+            }
+            }
+        }
+        .desine {
+            width: 70%;
+            height: 100%;
+            display: inline-block;
+             background-image: url('../src/er.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+             }
+    }
+}
+
